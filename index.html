@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Giridhar Subramanian</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" href="./css/timeline.css">
+    <!-- <link rel="stylesheet" href="./css/sidenav.css"> -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/pushy.css">
+    <!-- <link rel="shortcut icon" href="../favicon.ico"> -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- JS -->
+    <script src="./js/modernizr.custom.js"></script>
+    <style>
+    body p,h1,h2,h3,h4,h5,section {
+        font-family:'PT Sans', sans-serif;
+
+    }
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #1A1A1A;
+      background-image: url("");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+    img{
+        vertical-align: middle;
+    }
+    .menu-btn{
+        position: fixed;
+        top: 10px;
+        left: 30px;
+        font-size: 50px;
+        color: grey;
+        cursor: pointer;
+        z-index: 1000;
+    }
+
+    .pushy-content ul{
+        list-style-type: none;
+        padding: 0px;
+    }
+    .pushy-content ul li{
+        position: relative;
+        margin: 18px 0px 15px 0px;
+        padding: 10px 0px 5px 0px;
+    }
+
+    .pushy-content ul li a{
+        position: relative;
+        padding: 5px 5px 5px 30px;
+    }
+
+    .pushy-content ul li a i{
+        position: absolute;
+        top: 10px;
+    }
+
+    .pushy-content ul li a p{
+        position: absolute;
+        padding-left: 30px;
+        color: #000000;
+        font-size: 15px;
+    }
+
+    #skills{
+        padding: 30px 0 10px;
+        background: #DDDDDD;
+        text-align: center;
+        font-weight: 300;
+        border-top: 1px solid #d3d3d3;
+    }
+    #skills ul {
+        list-style: none;
+        display: table;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    #skills ul li {
+        display: inline-block;
+        min-width: 50px;
+        min-height: 75px;
+        margin: 0 30px;
+        padding: 0 30px;
+        position: relative;
+    }    
+
+    #skills .well{
+        padding: 15px 0px 0px;
+        background: #363636;
+        border-radius: 8px;
+        display: table;
+        /*margin: 0 auto;*/
+        /*display: inline-block;*/
+    }
+
+    #skills .well p{
+        color: white;
+    }
+
+    #skills .example-title{
+        padding: 2em 0;
+        margin-bottom: 40px;
+    }
+    /*Python icon by Icons8 */
+    .icons8-Python { /* Customizes Python icon */
+      width: 50px;
+      height: 50px;
+    }
+    .icon { /* Customizes all icons at once */
+      display: inline-block;
+    }
+
+    .pushy-content li:hover{
+        background: white !important;
+    }
+
+
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="pushy pushy-left" data-focus="#first-link">
+        <div class="pushy-content">
+            <!-- <ul>
+                <li>
+                    <p>INTRODUCTION<p>
+                </li>
+            </ul> -->
+            <ul>
+                <li class="pushy-link" id="side-link"><a href="#intro"><i class="fa fa-user-o" aria-hidden="true"></i> <p>INTRODUCTION<p></a></li>
+                <!-- <li class="pushy-link"><a href="#about-me"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <p>ABOUT<p></a></li> -->
+                <li class="pushy-link"><a href="#skills"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <p>SKILLS<p></a></li>
+                <li class="pushy-link"><a href="#projects"><i class="fa fa-file-code-o" aria-hidden="true"></i> <p>PROJECTS<p></a></li>
+                <li class="pushy-link"><a href="#my-timeline"><i class="fa fa-hourglass-start" aria-hidden="true"></i> <p>TIMELINE<p></a></li>
+                <li class="pushy-link"><a href="#footer"><i class="fa fa-address-card-o" aria-hidden="true"></i> <p>CONTACT<p></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Site Overlay -->
+    <div class="site-overlay"></div>
+
+    <!-- Your Content -->
+    <div id="container">
+        <!-- Menu Button -->
+        <span class="menu-btn">&#9776;</span>
+    </div>
+
+
+
+
+    <!-- Page Content -->
+    <div id="particles-js"></div>
+    <section id="intro">
+        <div class="container">
+            <!-- <div class="row"> -->
+                <div class="col-lg-12 text-center">
+                    <div class="intro-pg">
+                        <img src="./img/myimg.jpg" alt="..." class="img-responsive center-block img-circle animated fadeInDown" />
+                        <h1 class="animated fadeInDown">Giridhar Subramanian</h1>
+                        <p class="lead animated fadeInUp">NIT Trichy | ECE Undergrad</p>
+                        <hr class="dash animated fadeInUp"></hr>
+                    <div>
+                </div>
+            <!-- </div> -->
+        </div>
+    </section>
+    <!-- Below is the about me section that will be updated later -->
+    <section id="about-me">
+        <div class="container">
+            <div class="col-md-12 example-title">
+                        <h2>About me!</h2>
+            </div>
+            <div class="col-md-offset-1 col-md-10 text-center">
+                <p class="lead">Giridhar Subramanian<br>
+                Hi! My name is Giridhar Subramanian</p>
+                <p class="padded">I did my undergrad at the <a href="http://www.nitt.edu/" target="_blank"> National Institute of Technology - Trichy </a> graduating with a B.Tech degree in Electronics and communication Engineering</p>
+                <p class="padded">I take part in programming contests etc etc<a href="http://www.nitt.edu/" target="_blank"> National Institute of Technology - Trichy </a> graduating with a B.Tech degree in Electronics and communication Engineering</p>
+                <p class="padded">I take part in programming contests etc etc<a href="http://www.nitt.edu/" target="_blank"> National Institute of Technology - Trichy </a> graduating with a B.Tech degree in Electronics and communication Engineering</p>
+                <hr class="dash"></hr>
+            </div>
+    </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-12 example-title">
+                    <h3>Skills!</h3>
+                </div>
+                <div class="row example-centered center col-md-offset-4">
+                    <div class="col-md-2 .col-sm-4 well">
+                        <p>C/C++</p>
+                    </div>
+                    <div class="col-md-2 .col-sm-4 well">
+                        <p>PYTHON</p>
+                    </div>
+                    <!-- <div class="col-md-2 .col-sm-4 well">
+                        <p>JAVASCRIPT</p>
+                    </div>
+                    <div class="col-md-2 .col-sm-4 well">
+                        <p>PHP</p>
+                    </div>
+                    <div class="col-md-2 .col-sm-4 well">
+                        <p>HTML5,CSS</p>
+                    </div> -->
+                    <div class="col-md-2 well">
+                        <p>MATLAB</p>
+                    </div>
+                </div>
+                <!-- <div class="row example-centered">
+                    
+                    <div class="col-md-2 well">
+                        <p>GIT</p>
+                    </div>
+                    <div class="col-md-2 well">
+                        <p>SQL</p>
+                    </div>
+                </div> -->
+            </div>
+                
+            
+
+      </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="col-md-12 example-title">
+                    <h2>Projects</h2>
+            </div>
+            <div class="col-md-offset-2 col-md-10">
+                <h3>Project1</h3>
+                <div class="padded">
+                    Project project project Project project project Project project project Project project projectProject project project
+                    <br>
+                    <a href="#">link</a>
+                  </div>
+                  <br>
+                <h3>Project2</h3>
+                <div class="padded">
+                    Project project projectProject project projectProject project projectProject project projectProject project project
+                    <br>
+                    <a href="#">link</a>
+                </div>
+                <br>
+                <h3>Project3</h3>
+                <div class="padded">
+                    Project project projectProject project projectProject project projectProject project projectProject project project
+                <br>
+                <a href="#">link</a>
+                </div>
+                <br>
+                <h3>project</h3>
+                <div class="padded">
+                    Project project projectProject project projectProject project projectProject project projectProject project project
+                    <br>
+                    <a href="#">link</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="my-timeline">
+        <div class="container-fluid">
+            <div class="row example-centered">
+                <div class="col-md-12 example-title">
+                    <h2>Timeline</h2>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                    <ul class="timeline timeline-centered">
+                        <li class="timeline-item period">
+                            <div class="timeline-info"></div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h2 class="timeline-title">April 2016</h2>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-info">
+                                <span>March 12, 2016</span>
+                            </div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Event Title</h3>
+                                <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                                    eu pede mollis pretium. Pellentesque ut neque.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-info">
+                                <span>March 23, 2016</span>
+                            </div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Event Title</h3>
+                                <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                                    eu pede mollis pretium. Pellentesque ut neque. </p>
+                            </div>
+                        </li>
+                        <li class="timeline-item period">
+                            <div class="timeline-info"></div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h2 class="timeline-title">April 2016</h2>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-info">
+                                <span>April 02, 2016</span>
+                            </div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Event Title</h3>
+                                <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                                    eu pede mollis pretium. Pellentesque ut neque. </p>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-info">
+                                <span>April 28, 2016</span>
+                            </div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Event Title</h3>
+                                <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                                    eu pede mollis pretium. Pellentesque ut neque. </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="footer">
+        <div class="container">
+            <h3>Hit me up!</h3>
+
+            <ul>
+              
+              <li class="github">
+                <a href="https://github.com/girisub" target="_blank">
+                  <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+                  <p>GitHub</p>
+                </a>
+              </li>
+
+              <li class="linkedin">
+                <a href="https://www.linkedin.com/in/giridhar-subramanian-74588aba/" target="_blank">
+                  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                  <p>Linkedin</p>
+                </a>
+              </li>
+
+              <li class="twitter">
+                <a href="https://twitter.com/giri_sub" target="_blank">
+                  <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                  <p>Twitter</p>
+                </a>
+              </li>
+
+              <li class="facebook">
+                <a href="https://www.facebook.com/giridharsub" target="_blank">
+                  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                  <p>Facebook</p>
+                </a>
+              </li>
+            </ul>
+
+            <div class="license">
+              Giridhar Subramanian.
+                <br/>
+              Made with HTML,CSS, Bootstrap, Font Awesome
+            </div>
+      </div>
+    </section>
+
+    <script src="./js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <!--<script src="./js/typekit.js"></script>-->
+    <script src="./js/pushy.min.js"></script>
+    <!--<script src="https://use.typekit.net/bkt6ydm.js"></script>-->
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+
+    <script src="./js/menu.js"></script>
+    
+    
+
+    
+</body>
+
+</html>
